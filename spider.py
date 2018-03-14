@@ -4,6 +4,7 @@ from requests.exceptions import RequestException
 from MaoyanTop100.useragent import get_useragent
 import re
 import threading
+from multiprocessing import pool
 
 
 # 获取单个url的源文件
